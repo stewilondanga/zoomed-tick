@@ -83,25 +83,27 @@ input[type="checkbox"]:checked~.check-square:after {
   display: block;
 }
 
-/*@keyframes misty {
-    0% {
-        border: 6px solid cornflowerblue;
-        box-shadow: 0 0 4px pink;
-    }
-    50% {
-        border: 6px double white;
-        box-shadow: 0 0 4px blue;
-        font-size: 2em;
-        transform: scale(1.5);
-    }
-    100% {
-        border: 6px double #fff;
-        box-shadow: 0 0 4px rgb(190, 40, 110);
-        transform: scale(1);
-    }
+@keyframes misty {
+  0% {
+    border: 6px solid cornflowerblue;
+    box-shadow: 0 0 4px pink;
+  }
+
+  50% {
+    border: 6px double white;
+    box-shadow: 0 0 4px blue;
+    font-size: 2em;
+    transform: scale(1.5);
+  }
+
+  100% {
+    border: 6px double #fff;
+    box-shadow: 0 0 4px rgb(190, 40, 110);
+    transform: scale(1);
+  }
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
