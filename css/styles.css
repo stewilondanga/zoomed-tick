@@ -72,14 +72,14 @@ span {
   display: none;
 }
 
-/*input[type="checkbox"]:checked~.check-square {
-    background-image: linear-gradient(to right, #ec008c, #fc6767);
-    animation-name: misty;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
+input[type="checkbox"]:checked~.check-square {
+  background-image: linear-gradient(to right, #ec008c, #fc6767);
+  animation-name: misty;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
-input[type="checkbox"]:checked~.check-square:after {
+/*input[type="checkbox"]:checked~.check-square:after {
     display: block;
 }
 
