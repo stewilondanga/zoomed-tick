@@ -3,6 +3,15 @@ body {
   height: 100%;
 }
 
+body {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  align-content: center;
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  font-family: 'Unica One', cursive;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -27,14 +36,6 @@ body {
 }
 
 
-body {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    align-content: center;
-    background-image: linear-gradient(#ff6e7f, #bfe9ff);
-    font-family: 'Unica One', cursive;
-}
 
 .checkbox {
     max-width: 50%;
