@@ -79,11 +79,11 @@ input[type="checkbox"]:checked~.check-square {
   animation-fill-mode: forwards;
 }
 
-/*input[type="checkbox"]:checked~.check-square:after {
-    display: block;
+input[type="checkbox"]:checked~.check-square:after {
+  display: block;
 }
 
-@keyframes misty {
+/*@keyframes misty {
     0% {
         border: 6px solid cornflowerblue;
         box-shadow: 0 0 4px pink;
