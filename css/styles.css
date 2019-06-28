@@ -27,15 +27,13 @@ body {
   height: 1.5em;
 }
 
-/*
-
 .checkbox {
-    max-width: 50%;
-    color: #fff;
-    margin: auto;
+  max-width: 50%;
+  color: #fff;
+  margin: auto;
 }
 
-label {
+/*label {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
