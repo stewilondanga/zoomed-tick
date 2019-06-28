@@ -51,20 +51,20 @@ span {
   display: block;
 }
 
-/*.check-square {
-    border-radius: 10px;
-    width: 60px;
-    height: 60px;
-    font-size: 1.8em;
-    border: 6px solid #fff;
-    transition: all 0.4s ease-in-out;
-    margin: auto;
-    color: #fff;
-    transform: scale(1);
-    position: relative;
+.check-square {
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  font-size: 1.8em;
+  border: 6px solid #fff;
+  transition: all 0.4s ease-in-out;
+  margin: auto;
+  color: #fff;
+  transform: scale(1);
+  position: relative;
 }
 
-.check-square:after {
+/*.check-square:after {
     content: "✔";
     display: none;
     transform: translate(15%, -15%);
