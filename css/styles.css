@@ -43,11 +43,11 @@ label {
   font-size: 2em;
 }
 
-/*input[type="checkbox"] {
-    opacity: 0;
+input[type="checkbox"] {
+  opacity: 0;
 }
 
-span {
+/*span {
     display: block;
 }
 
