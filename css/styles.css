@@ -47,11 +47,11 @@ input[type="checkbox"] {
   opacity: 0;
 }
 
-/*span {
-    display: block;
+span {
+  display: block;
 }
 
-.check-square {
+/*.check-square {
     border-radius: 10px;
     width: 60px;
     height: 60px;
