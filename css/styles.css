@@ -64,15 +64,15 @@ span {
   position: relative;
 }
 
-/*.check-square:after {
-    content: "✔";
-    display: none;
-    transform: translate(15%, -15%);
-    position: absolute;
-    display: none;
+.check-square:after {
+  content: "✔";
+  display: none;
+  transform: translate(15%, -15%);
+  position: absolute;
+  display: none;
 }
 
-input[type="checkbox"]:checked~.check-square {
+/*input[type="checkbox"]:checked~.check-square {
     background-image: linear-gradient(to right, #ec008c, #fc6767);
     animation-name: misty;
     animation-duration: 1s;
