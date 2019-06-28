@@ -33,17 +33,17 @@ body {
   margin: auto;
 }
 
-/*label {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-    padding: 10px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 2em;
+label {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
 }
 
-input[type="checkbox"] {
+/*input[type="checkbox"] {
     opacity: 0;
 }
 
